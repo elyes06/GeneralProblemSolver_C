@@ -22,6 +22,17 @@ L'objectif de ce projet est de créer un programme capable de :
 - **`parseFunctions.h`** : Contient les fonctions pour parser les règles et les faits depuis un fichier.
 - **`functions.h`** : Inclut les fonctions pour appliquer les règles, vérifier l'état final et gérer les opérations de backtracking.
 
+## Fonctionnement de l'algorithme
+
+L'algorithme de raisonnement suit un processus de backtracking et d'application de règles pour atteindre l'état final souhaité. Le schéma ci-dessous illustre les différentes étapes de l'algorithme.
+
+![Schéma de fonctionnement](./Algorithme_GPS.png)
+
+1. **Vérifier l'état** : L'algorithme commence par vérifier si l'état actuel est le but ou si le but est atteignable.
+2. **Trouver une règle applicable** : Ensuite, il cherche une règle qui peut être appliquée dans l'état actuel.
+3. **Appliquer la règle temporairement** : Si une règle est trouvée, elle est appliquée temporairement pour vérifier si elle peut mener à un nouvel état valide.
+4. **Backtracking** : Si aucune règle ne mène au but, l'algorithme effectue un retour en arrière (backtracking) pour essayer d'autres options.
+
 ## Utilisation
 
 ### Prérequis
