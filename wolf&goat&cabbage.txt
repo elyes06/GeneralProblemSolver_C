@@ -1,0 +1,48 @@
+start:wolf at river,cabbage at river,goat at river,
+finish:wolf at other river,cabbage at other river,goat at other river,
+****
+action:take first wolf,
+preconds:wolf at river,cabbage at river,goat at river,
+add:wolf at other river,
+delete:wolf at river,cabbage at river,
+****
+action:take second wolf,
+preconds:wolf at river,
+add:wolf at other river,
+delete:wolf at river,
+****
+action:take third wolf,
+preconds:wolf at river,
+add:wolf at other river,
+delete:wolf at river,
+****
+action:take first cabbage,
+preconds:wolf at river,cabbage at river,goat at river,
+add:cabbage at other river,
+delete:cabbage at river,goat at river,
+****
+action:take second cabbage,
+preconds:cabbage at river,
+add:cabbage at other river,
+delete:cabbage at river,
+****
+action:take third cabbage,
+preconds:cabbage at river,
+add:cabbage at other river,
+delete:cabbage at river,
+****
+action:take first goat,
+preconds:wolf at river,cabbage at river,goat at river,
+add:goat at other river,
+delete:goat at river,
+****
+action:take second goat,
+preconds:goat at river,
+add:goat at other river,
+delete:goat at river,
+****
+action:take third goat,
+preconds:goat at river,
+add:goat at other river,
+delete:goat at river,
+
