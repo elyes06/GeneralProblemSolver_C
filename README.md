@@ -59,4 +59,4 @@ En cas d'échec, un message indiquant l'impossibilité d'atteindre le but est af
 
 ## Contributeurs
 - [elyes06](https://github.com/elyes06)
-- [yuuji-dev](https://github.com/yuuji-dev))
+- [yuuji-dev](https://github.com/yuuji-dev)
