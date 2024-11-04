@@ -56,3 +56,7 @@ Le programme démarre en affichant l'état initial.
 Ensuite, il applique les règles successives jusqu'à atteindre l'état final ou jusqu'à ce qu'il détermine que le but est impossible à atteindre. 
 En cas de réussite, l'état final est affiché. 
 En cas d'échec, un message indiquant l'impossibilité d'atteindre le but est affiché.
+
+## Contributeurs
+- elyes06
+- pixelkiller0
