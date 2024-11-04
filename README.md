@@ -33,3 +33,16 @@ Ce projet est écrit en C. Assurez-vous d'avoir un compilateur C installé (comm
 Compilez le projet en utilisant la commande suivante :
 ```bash
 gcc main.c -o general_problem_solver
+````
+### Exécution
+
+Pour exécuter le programme, lancez la commande suivante :
+```bash
+./general_problem_solver
+````
+
+### Exécution du programme
+Le programme démarre en affichant l'état initial. 
+Ensuite, il applique les règles successives jusqu'à atteindre l'état final ou jusqu'à ce qu'il détermine que le but est impossible à atteindre. 
+En cas de réussite, l'état final est affiché. 
+En cas d'échec, un message indiquant l'impossibilité d'atteindre le but est affiché.
