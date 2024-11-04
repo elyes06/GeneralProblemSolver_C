@@ -58,5 +58,5 @@ En cas de réussite, l'état final est affiché.
 En cas d'échec, un message indiquant l'impossibilité d'atteindre le but est affiché.
 
 ## Contributeurs
-- elyes06
-- pixelkiller0
+- [elyes06](https://github.com/elyes06)
+- [yuuji-dev](https://github.com/yuuji-dev))
