@@ -41,7 +41,6 @@ Pour exécuter le programme, lancez la commande suivante :
 ./general_problem_solver
 ````
 
-### Exécution du programme
 Le programme démarre en affichant l'état initial. 
 Ensuite, il applique les règles successives jusqu'à atteindre l'état final ou jusqu'à ce qu'il détermine que le but est impossible à atteindre. 
 En cas de réussite, l'état final est affiché. 
